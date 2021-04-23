@@ -1,4 +1,4 @@
-# Container project description
+# do-curl
 
 
 This is a Depend on Docker project which comes operational out of the box 
@@ -15,3 +15,19 @@ The project contains the following scripts:
 * `status.sh` - show container status - running, exited, etc.
 * `logs.sh` - tail container logs
 * `exec.sh [cmd]` - open a shell or execute a specified command in the running container
+
+## Usage
+
+On a docker host:
+
+```
+docker run -it --rm  iankoulski/do-curl bash -c "curl http://icanhazip.com"
+```
+
+In Kubernetes:
+
+```
+kubectl exec -it <pod-name> -- bash -c "curl http://icanhazip.com"
+```
+
+
