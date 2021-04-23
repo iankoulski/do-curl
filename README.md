@@ -18,10 +18,17 @@ The project contains the following scripts:
 
 ## Usage
 
+Within project:
+```
+./run.sh
+./exec.sh curl http://icanhazip.com
+./stop.sh
+```
+
 On a docker host:
 
 ```
-docker run -it --rm  iankoulski/do-curl bash -c "curl http://icanhazip.com"
+docker run -it --rm  iankoulski/do-curl curl http://icanhazip.com
 ```
 
 In Kubernetes:

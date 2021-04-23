@@ -1,4 +1,4 @@
-ARG BASE_IMAGE_PATH="alpine:latest"
+ARG BASE_IMAGE_PATH="ubuntu:18.04"
 
 FROM $BASE_IMAGE_PATH
 
