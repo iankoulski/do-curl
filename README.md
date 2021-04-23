@@ -18,7 +18,7 @@ The project contains the following scripts:
 
 ## Usage
 
-Within project:
+Within project ( git clone https://github.com/iankoulski/do-curl.git ):
 ```
 ./run.sh
 ./exec.sh curl http://icanhazip.com
